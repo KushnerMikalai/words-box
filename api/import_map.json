@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "oak": "https://deno.land/x/oak@v10.4.0/mod.ts",
+    "cors": "https://deno.land/x/cors@v1.2.2/mod.ts",
+    "fmt/": "https://deno.land/std@0.120.0/fmt/",
+    "deno-dom-wasm": "https://deno.land/x/deno_dom/deno-dom-wasm.ts"
+  }
+}
