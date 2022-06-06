@@ -7,12 +7,11 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@quasar/vite-plugin": "^1.0.9",
-    "nuxt": "3.0.0-rc.1",
-    "sass": "^1.52.0"
+    "nuxt": "^3.0.0-rc.1",
+    "sass": "^1.52.2"
   },
   "dependencies": {
-    "@quasar/extras": "^1.14.0",
-    "quasar": "^2.7.0"
+    "@pinia/nuxt": "^0.1.9",
+    "pinia": "^2.0.14"
   }
 }

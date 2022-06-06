@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import KuDialog from './components/dialog.vue'
-
+import UDialog from './components/dialog.vue'
 const open = ref(false)
 
 </script>
@@ -11,7 +10,7 @@ const open = ref(false)
   <button @click="open = true">open dialog</button>
   <button @click="open = false">close dialog</button>
 
-  <ku-dialog v-if="open">dialog say - Hello</ku-dialog>
+  <u-dialog v-if="open">dialog say - Hello</u-dialog>
 
   <div :style="{ height: '1300px' }"></div>
 </template>

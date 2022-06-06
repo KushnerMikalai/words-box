@@ -1,3 +1,32 @@
 :root {
     --default-color: #171717;
+
+    --u-bg-color: #ffffff;
+    --u-bg-color-page: #f2f3f5;
+    --u-bg-color-overlay: #ffffff;
+
+    --u-box-shadow: 0px 12px 32px 4px rgba(0, 0, 0, .04), 0px 8px 20px rgba(0, 0, 0, .08);
+    --u-box-shadow-light: 0px 0px 12px rgba(0, 0, 0, .12);
+    --u-box-shadow-lighter: 0px 0px 6px rgba(0, 0, 0, .12);
+    --u-box-shadow-dark: 0px 16px 48px 16px rgba(0, 0, 0, .08), 0px 12px 32px rgba(0, 0, 0, .12), 0px 8px 16px -8px rgba(0, 0, 0, .16);
+
+    --u-font-size-extra-large: 20px;
+    --u-font-size-large: 18px;
+    --u-font-size-medium: 16px;
+    --u-font-size-base: 14px;
+    --u-font-size-small: 13px;
+    --u-font-size-extra-small: 12px;
+    --u-font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5fae\8f6f\96c5\9ed1", Arial, sans-serif;
+    --u-font-weight-primary: 500;
+    --u-font-line-height-primary: 24px;
+
+    --u-index-normal: 1;
+    --u-index-top: 1000;
+    --u-index-popper: 2000;
+    --u-border-radius-base: 4px;
+    --u-border-radius-small: 2px;
+    --u-border-radius-round: 20px;
+    --u-border-radius-circle: 100%;
+
+    --overlay-color: rgba(0, 0, 0, 0.5)
 }
