@@ -4,7 +4,8 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   modules: ['@pinia/nuxt'],
   typescript: {
-    shim: false
+    shim: false,
+    strict: true
   },
   css: [
     '~/assets/styles/common.scss',

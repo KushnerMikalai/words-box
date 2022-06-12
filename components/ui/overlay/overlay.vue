@@ -1,13 +1,29 @@
 <template>
-  <div class="u-overlay">
+  <div
+    :class="[
+        'ui-overlay',
+        props.overlayClass
+    ]"
+    :style="{
+        zIndex: props.zIndex
+    }"
+>
     <slot></slot>
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+type Props = {
+    overlayClass?: string | string[] | Record<string, boolean>
+    zIndex?: number
+}
+
+const props = withDefaults(defineProps<Props>(), {
+});
+</script>
 
 <style lang="scss">
-.u-overlay {
+.ui-overlay {
   position: fixed;
   top: 0;
   right: 0;

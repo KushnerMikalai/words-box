@@ -4,11 +4,20 @@
     "build": "nuxt build",
     "dev": "nuxt dev --https",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "test": "vitest",
+    "test:coverage": "vitest --coverage",
+    "lint": "eslint --ext .ts,vue --ignore-path .gitignore . --fix"
   },
   "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vitest/ui": "^0.14.1",
+    "@vue/test-utils": "^2.0.0",
+    "eslint": "^8.17.0",
+    "jsdom": "^19.0.0",
     "nuxt": "^3.0.0-rc.1",
-    "sass": "^1.52.2"
+    "sass": "^1.52.2",
+    "vitest": "^0.14.1"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.9",

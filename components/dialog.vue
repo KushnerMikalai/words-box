@@ -1,6 +1,6 @@
 <script setup>
 import { onBeforeMount, onUnmounted } from 'vue'
-import UOverlay from '~/components/ui/overlay'
+import UiOverlay from '~/components/ui/Overlay/Overlay.vue'
 
 onBeforeMount(() => {
   document.body.classList.add('overflow_hidden')
@@ -16,7 +16,7 @@ onUnmounted(() => {
     <transition
       name="modal-fade"
     >
-      <u-overlay>
+      <UiOverlay :z-index="'123'">
         <div
           role="dialog"
           aria-modal="true"
@@ -27,7 +27,7 @@ onUnmounted(() => {
             <button>close</button>
           </div>
         </div>
-      </u-overlay>
+      </UiOverlay>
     </transition>
   </teleport>
 </template>
